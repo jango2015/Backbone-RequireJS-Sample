@@ -1,8 +1,8 @@
 define(function (require) {
-    var BookModel = require('./model/BookModel'),
-        BookView = require('./view/BookView'),
-        
-        $ = require('jquery');
+    var $         = require('jquery'),
+    
+        BookModel = require('./model/BookModel'),
+        BookView  = require('./view/BookView');
 
     $(function () {
         var model = new BookModel({

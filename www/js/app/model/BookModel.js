@@ -1,4 +1,6 @@
-define(['backbone'], function (Backbone) {
+define(function (require) {
+    var Backbone = require('backbone');
+    
     var BookModel = Backbone.Model.extend({
         validate: function(attrs) {
             if (!attrs.firstname) 
