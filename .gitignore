@@ -1,3 +1,5 @@
 www-built
 www-ghpages
 .c9revisions/
+*.swp
+node_modules/

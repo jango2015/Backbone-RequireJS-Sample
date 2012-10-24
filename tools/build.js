@@ -3,9 +3,11 @@
     mainConfigFile: '../www/js/common.js',
     dir: '../www-built',
     paths: {
-        'jquery':       'empty:',
-        'underscore':   'empty:',
-        'backbone':     'empty:'
+        'jquery.validate':  'empty:',
+        'jquery':           'empty:',
+        'underscore':       'empty:',
+        'backbone':         'empty:'
+        
     },
     optimize: 'none',
     modules: [

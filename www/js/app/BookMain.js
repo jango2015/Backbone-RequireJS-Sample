@@ -1,7 +1,14 @@
-define(function (require) {
-    var $         = require('jquery'),
+define([
+    'require',
+    'jquery', 
+    'app/model/BookModel', 
+    'app/view/BookView', 
+    'jquery.validate'
+], 
+function (require) {
+    var $ = require('jquery');
     
-        BookModel = require('app/model/BookModel'),
+    var BookModel = require('app/model/BookModel'),
         BookView  = require('app/view/BookView');
 
     $(function () {

@@ -1,3 +1,6 @@
+//Wrapped in an outer function to preserve global this
+(function (root) { var amdExports; define(['jquery'], function () { (function () {
+
 /**
  * jQuery Validation Plugin 1.10.0
  *
@@ -1255,3 +1258,9 @@ $.format = $.validator.format;
 		}
 	});
 }(jQuery));
+
+
+
+}.call(root));
+    return amdExports;
+}); }(this));
