@@ -16,9 +16,6 @@ requirejs.config({
             deps: ['jquery', 'underscore'],
             exports: 'Backbone'
         },
-        'backbone.layoutmanager': {
-            deps: ['backbone']
-        },
         'jquery.validate': {
             deps: ['jquery']
         },
