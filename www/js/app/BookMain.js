@@ -2,8 +2,7 @@ define([
     'require',
     'jquery', 
     'app/model/BookModel', 
-    'app/view/BookView', 
-    'jquery.validate'
+    'app/view/BookView'
 ], 
 function (require) {
     var $ = require('jquery');
