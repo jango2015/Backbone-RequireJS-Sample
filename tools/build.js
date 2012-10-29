@@ -3,13 +3,9 @@
     mainConfigFile: '../www/js/common.js',
     dir: '../www-built',
     paths: {
-        'jquery.validate':  'empty:',
-        'jquery':           'empty:',
-        'underscore':       'empty:',
-        'backbone':         'empty:'
-        
+        'jquery':           'empty:'
     },
-    optimize: 'none',
+    optimize: 'uglify',
     modules: [
         //First set up the common build layer.
         {

@@ -12,15 +12,5 @@ requirejs.config({
         app: '../app'
     },
     shim: {
-        'backbone': {
-            deps: ['jquery', 'underscore'],
-            exports: 'Backbone'
-        },
-        'jquery.validate': {
-            deps: ['jquery']
-        },
-        'underscore': {
-            exports: '_'
-        }
     }
 });

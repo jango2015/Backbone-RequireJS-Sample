@@ -1,3 +1,6 @@
+//Wrapped in an outer function to preserve global this
+(function (root) { var amdExports; define(['jquery','underscore'], function () { (function () {
+
 //     Backbone.js 0.9.2
 
 //     (c) 2010-2012 Jeremy Ashkenas, DocumentCloud Inc.
@@ -1430,3 +1433,10 @@
 
 }).call(this);
 
+
+
+amdExports = Backbone;
+
+}.call(root));
+    return amdExports;
+}); }(this));
